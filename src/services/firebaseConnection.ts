@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCT6uMXxdm7PijGj05rsA5Q87yNU4plyVg",
-  authDomain: "dashboardescola-6d3b3.firebaseapp.com",
-  projectId: "dashboardescola-6d3b3",
-  storageBucket: "dashboardescola-6d3b3.appspot.com",
-  messagingSenderId: "101099581605",
-  appId: "1:101099581605:web:afdbfde0e4a9b271cb1d4c"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID
 };
 
 
